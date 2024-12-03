@@ -1,0 +1,521 @@
+body {
+    padding: 0px; 
+    background-color: rgb(255, 255, 255);
+    
+}
+.grid {display: grid;
+    grid-template-areas: 
+    "handbol handbol handbol handbol"
+    "padel padel padel padel"
+    "gym gym gym gym"
+    "fotos fotos fotos fotos"
+    ;
+}
+
+.handbol {grid-area: handbol;}
+.padel {grid-area: padel;}
+.gym {grid-area: gym;}
+.fotos {grid-area: fotos;}
+
+
+
+.entrada {
+    background-color: black;
+    position: relative;
+    height: 30px;
+    width: 100%;
+
+}
+.nom {
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    font-size: 15px;
+}
+.logo {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+}
+
+.capçal {
+    background-color: white;
+    position: relative; 
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    order:+7;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    z-index: +1;
+}
+.jacket { 
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding: 7px;
+    right: 8px;
+    top: 10px;
+
+}
+
+.aficions {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.video2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.extraescolars {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.estudis2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.amistats {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.Jaume {position: absolute; 
+    top: 15px; 
+    right: 600px;
+}
+.classe {position: absolute;
+    top: 15px;
+    left: 30px;    
+}
+.titol {
+    width: 100%;
+    text-align: center;
+ }
+
+.grid {
+    border: 2px solid black;
+    padding: 9px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(192, 207, 218);
+}
+
+.titol {grid-area: titol; 
+    position: relative;
+    order: -3;
+
+}
+.titol2 {position: absolute;
+    top: 100px;
+    left: 50px;
+    color: azure;
+    font-size: 30px;
+}
+.handbol {background: linear-gradient(to right,  rgb(217, 206, 81), rgb(59, 78, 3));
+    font-size: 25px;}
+.padel {background: linear-gradient(to left,  rgb(236, 60, 57), rgb(100, 13, 13));
+    font-size: 25px;}
+.gym {background: linear-gradient(to left,  rgb(0, 72, 78), rgb(98, 225, 229));
+    font-size: 25px;}
+
+.fotos {justify-content: center;
+    align-items: center;
+    width: 100%; 
+    position: relative;
+    height: 280px;
+
+
+}
+.fotos div {padding: 20px; 
+}
+
+
+.fthandbol {
+    position: absolute;
+    top: 20px; 
+    left: 60px;
+}
+
+.ftpadel {
+    position: absolute;
+    top: 20px;
+    right: 400px;  
+}
+
+.ftgym {
+    position: absolute;
+    top: 20px;
+    right: 25px;  
+}
+
+.vacances {
+    border: 2px solid black;
+    padding: 9px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background-color: rgb(192, 207, 218);
+}
+.vacances div {
+    padding: 7px;
+}
+
+h1 {
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+}
+
+.montanya figcaption {
+    margin-top: 8px;
+    font-size: 20px;
+    color: #555;
+    font-style: italic;
+}
+.cambrils figcaption {
+    margin-top: 8px;
+    font-size: 20px;
+    color: #555;
+    font-style: italic;
+}
+.basc figcaption {
+    margin-top: 8px;
+    font-size: 20px;
+    color: #555;
+    font-style: italic;
+}
+.escocia figcaption {
+    margin-top: 8px;
+    font-size: 20px;
+    color: #555;
+    font-style: italic;
+}
+.londres figcaption {
+    margin-top: 8px;
+    font-size: 20px;
+    color: #555;
+    font-style: italic;
+}
+
+.estudis {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 7px;
+    display: grid;
+    grid-template-areas: 
+    "titol titol titol titol"
+    "mates mates dibuix dibuix"
+    "programacio programacio industrial industrial";
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(192, 207, 218);
+
+}
+
+.estudis div {
+    
+    background-color: bisque; 
+    
+}
+
+h2 {width: 100%;
+    grid-area: titol;
+    text-align: center;  
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+
+
+.mates { 
+    margin: 5px;
+    grid-area: mates;
+    position: relative;
+    height: 210px;
+    border: 2px solid black;
+}
+.mates img {
+    position: absolute;
+    left: 300px;
+    top: 2px;
+}
+
+.h3 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dibuix {
+    margin: 5px;
+    grid-area: dibuix;
+    position: relative;
+    height: 210px;
+    border: 2px solid black;
+}
+.dibuix img {
+    position: absolute;
+    right: 30px;
+    top: 2px;
+}
+
+.h4 {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 20px;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+
+.programacio {
+    margin: 5px;
+    grid-area: programacio;
+    height: 210px;
+    position: relative;
+    border: 2px solid black;
+}
+.programacio img {
+    position: absolute;
+    left: 300px;
+    top: 2px;
+}
+
+.h5 {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.enginyeria {
+    margin: 5px; 
+    grid-area: industrial;
+    height: 210px;
+    position: relative;
+    border: 2px solid black;
+}
+.enginyeria img {
+    position: absolute;
+    right: 30px;
+    top: 2px;
+}
+
+    
+table {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+
+
+.slider {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Tota la altura de la pantalla */
+    overflow: hidden; /* Amaga contingut restant */
+  }
+
+  .slider-track {
+    display: flex;
+    width: calc(100vw * 4); /* Ancho total basado en el número de imágenes */
+    animation: slide 16s linear infinite; /* Animación fluida y continua */
+  }
+
+  .slider-track img {
+    width: 100vw; /* Cada imagen ocupa el ancho de la pantalla */
+    height: 100vh; /* Cada imagen ocupa toda la altura de la ventana */
+    object-fit: cover; /* Asegura que las imágenes mantengan sus proporciones */
+  }
+
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  
+
+
+  .video { 
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(192, 207, 218);
+  }
+.video h1 { text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;}
+  
+.peu {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    
+}
+
+
+.insta {
+    position: absolute;
+    right: 55px;
+    top: 65px;
+}
+.youtube {
+    position: absolute;
+    right: 30px;
+    top: 70px;
+}
+
+.info {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+
+@media (max-width: 800px) { 
+    .entrada {width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+    .titol img{ height: 300px;}
+    .capçal {width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .titol {width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .grid {width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .grid img {
+        width: 120px;
+        height: 80px;
+        padding: 5px;
+    }
+    .fotos {position: relative;
+        height: 150px;        
+    }
+    .fthandbol {
+        position: absolute;
+        top: 20px; 
+        left: 140px;
+    }
+    
+    .ftpadel {
+        position: absolute;
+        top: 20px;
+        right: 300px;  
+    }
+    
+    .ftgym {
+        position: absolute;
+        top: 20px;
+        right: 10px;  
+    }
+    .vacances {width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .vacances img {width: 100%;}
+    .estudis {width: 100%;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .mates { 
+        position: relative;
+    }
+    .mates img {
+        position: absolute;
+        left: 50px;
+        top: 90px;
+        width: 100px;
+        height: 100px;
+    }
+    .dibuix { 
+        position: relative;
+    }
+    .dibuix img {
+        position: absolute;
+        right: 55px;
+        top: 90px;
+        width: 120px;
+        height: 110px;
+    }
+    .programacio { 
+        position: relative;
+    }
+    .programacio img {
+        position: absolute;
+        left: 50px;
+        top: 100px;
+        width: 100px;
+        height: 100px;
+    }
+    .h5 {
+        position: absolute;
+        top: 1px;
+    }  
+    .enginyeria {position: relative;}
+    .enginyeria table {
+        width: 180px;
+        height: 50px;
+        padding: 0px;
+        margin: 0px;   
+    } 
+    .enginyeria img {
+        width: 170px;
+        height: 150px;
+        position: absolute;
+        top: 75px;
+        right: 40px;
+    
+    }
+    
+    .slider {width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .peu {width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .video {width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .video iframe {width: 280px;
+        height: 170px;
+    }
+}
